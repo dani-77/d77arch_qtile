@@ -1,2 +1,2 @@
-# d77arch
+# d77arch Qtile
 My own Arch Linux live system.
