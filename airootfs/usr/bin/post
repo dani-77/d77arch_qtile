@@ -1,0 +1,17 @@
+#!/usr/bin/bash
+
+echo "Post Qtile Arch install"
+sleep 3
+
+cp -r /etc/skel/.config /mnt/etc/skel/
+cp /etc/environment /mnt/etc/
+
+arch-chroot /mnt
+sudo pacman -S abiword alsa-lib alsa-utils alsa-tools bash-completion dunst feh fuzzel geary git gnumeric jgmenu kitty kvantum networkmanager nwg-look nwg-launchers octopi otf-font-awesome papirus-icon-theme pcmanfm-qt pulseaudio python-psutil python-pyalsa python-pywlroots python-qtawesome python3 qt5ct qt6ct ranger rofi sddm slock spice-up sudo udiskie uget transmission-qt ttf-iosevka-nerd xcompmgr xorg-server xorg-xinit xorg-xwayland wlroots0.17 zathura-pdf-poppler
+
+git clone https://aur.archlinux.org/yay
+cd yay
+makepkg -si
+
+yay -S arc-gtk-theme octopi qtile-extras-git st-luke-git
+exit
