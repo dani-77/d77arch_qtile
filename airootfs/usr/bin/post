@@ -3,7 +3,7 @@
 echo "Post Qtile Arch install"
 sleep 3
 
-cp -r /etc/skel/.config /mnt/etc/skel/
+cp -r /etc/skel /mnt/etc/
 cp /etc/environment /mnt/etc/
 
 arch-chroot /mnt
