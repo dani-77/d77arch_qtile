@@ -131,7 +131,6 @@ zsh
 abiword
 bash-completion
 brave-bin
-#calamares-eggs
 dunst
 feh
 geary
@@ -186,7 +185,7 @@ wlroots0.17
 python-pywlroots
 
 ## qtile ##
-qtile-git
+qtile
 qtile-extras-git
 fuzzel
 jgmenu
