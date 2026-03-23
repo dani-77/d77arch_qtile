@@ -127,6 +127,17 @@ xfsprogs
 xl2tpd
 zsh
 
+## Calamares ##
+cracklib
+kcoreaddons
+ki18n
+kpmcore
+kwidgetsaddons
+libpwquality
+polkit-qt6
+yaml-cpp
+calamares
+
 ## d77common ##
 abiword
 bash-completion
@@ -161,9 +172,6 @@ ttf-hack
 ttf-iosevka-nerd
 xcompmgr
 zathura-pdf-poppler
-
-## extra repository d77 ##
-arc-gtk-theme
 
 ## extra repository ChaoticAUR ##
 chaotic-keyring
